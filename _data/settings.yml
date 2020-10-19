@@ -6,11 +6,8 @@ disqus:
 google-ID: 'UA-112060364-1'
 
 menu:
-- {name: 'Syllabus',   path: 'menu', url: 'syllabus.html'}
-- {name: 'Schedule & Materials',   path: 'menu', url: 'materials.html'}
-- {name: 'Projects',   path: 'menu', url: 'projects.html'}
-- {name: 'Installation',   path: 'menu', url: 'installation.html'}
-- {name: 'Zoom',   path: 'menu', url: 'zoom.html'}
+- {name: 'Survey validity',   path: 'menu', url: 'validity.html'}
+- {name: 'Data visualization',   path: 'menu', url: 'visualization.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
