@@ -27,6 +27,7 @@ The inventory consists of 10 items with three different five-option, graded resp
     <td style="padding:4px;vertical-align:top;align:center">Gross-unternehmen</td>
     <td style="padding:4px;vertical-align:top;align:center">Kaufleute</td>
     <td style="padding:4px;vertical-align:top;align:center">Schulungen</td>
+    <td style="padding:4px;vertical-align:top;align:center">Sozialwesen</td>
     <td style="padding:4px;vertical-align:top;align:center">Unternehmen</td>
   </tr>
   <tr>
@@ -42,7 +43,7 @@ The inventory consists of 10 items with three different five-option, graded resp
 
 ## Access
 
-To gain access to the data and materials, download this declaration, sign it, and hand in a digital copy <a href="mailto:dirk.wulff@unibas.ch?subject=declaration"><b>via e-mail</b></a>.
+To gain access to the data and materials, sign the declaration you received via mail, sign it, and send a digital copy <a href="mailto:dirk.wulff@unibas.ch?subject=declaration"><b>using this link</b></a>.
 
 Once you have handed-in the signed declaration you will receive a password that you can use to unpack this <a href="https://www.dropbox.com/sh/nazry94v600x8jb/AADCKjP9xpQu7k0KcrJ66-Jca?dl=0"><b>file</b></a>, containing the data and materials.
 
