@@ -22,21 +22,21 @@ The inventory consists of 10 items with three different five-option, graded resp
 
 <table cellspacing="0" cellpadding="0">
   <tr>
-    <td style="padding:4px"><b>Context</b></td>
-    <td style="padding:4px">Gesundheits-wesen</td>
-    <td style="padding:4px">Gross-unternehmen</td>
-    <td style="padding:4px">Kaufleute</td>
-    <td style="padding:4px">Schulungen</td>
-    <td style="padding:4px">Unternehmen</td>
+    <td style="padding:4px;vertical-align:top"><b>Context</b></td>
+    <td style="padding:4px;vertical-align:top;align:center">Gesundheits-wesen</td>
+    <td style="padding:4px;vertical-align:top;align:center">Gross-unternehmen</td>
+    <td style="padding:4px;vertical-align:top;align:center">Kaufleute</td>
+    <td style="padding:4px;vertical-align:top;align:center">Schulungen</td>
+    <td style="padding:4px;vertical-align:top;align:center">Unternehmen</td>
   </tr>
   <tr>
-    <td style="padding:4px"><b>N</b></td>
-    <td style="padding:4px">157</td>
-    <td style="padding:4px">228</td>
-    <td style="padding:4px">418</td>
-    <td style="padding:4px">604</td>
-    <td style="padding:4px">22</td>
-    <td style="padding:4px">56</td>
+    <td style="padding:4px;vertical-align:top"><b>N</b></td>
+    <td style="padding:4px;vertical-align:top;align:center">157</td>
+    <td style="padding:4px;vertical-align:top;align:center">228</td>
+    <td style="padding:4px;vertical-align:top;align:center">418</td>
+    <td style="padding:4px;vertical-align:top;align:center">604</td>
+    <td style="padding:4px;vertical-align:top;align:center">22</td>
+    <td style="padding:4px;vertical-align:top;align:center">56</td>
   </tr>
 </table>
 
