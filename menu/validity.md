@@ -30,7 +30,7 @@ The inventory consists of 10 items with three different five-option, graded resp
     <td style="padding:4px">Unternehmen</td>
   </tr>
   <tr>
-    <td style="padding:4px"><b>N<b></td>
+    <td style="padding:4px"><b>N</b></td>
     <td style="padding:4px">157</td>
     <td style="padding:4px">228</td>
     <td style="padding:4px">418</td>
