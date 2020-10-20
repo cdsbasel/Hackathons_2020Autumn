@@ -20,27 +20,6 @@ Your assignment is to function as a data analyst to identify a course of action,
 ## Inventory and Data
 The inventory consists of 10 items with three different five-option, graded response formats rated from 1 to 5. Currently, the items are averaged to compute a score indicating the person’s stress level. According to the client’s current scoring rules, scores between 1 and 2 are interpreted as excellent, scores between 2 and 3 as balanced, scores between 3 and 4 as somewhat stressed, and scores between 4 and 5 as very stressed. There are 1,485 responses stemming from six different assessment contexts.
 
-<table cellspacing="0" cellpadding="0">
-  <tr>
-    <td style="padding:4px;vertical-align:top"><b>Context</b></td>
-    <td style="padding:4px;vertical-align:top;align:center">Gesundheits-wesen</td>
-    <td style="padding:4px;vertical-align:top;align:center">Gross-unternehmen</td>
-    <td style="padding:4px;vertical-align:top;align:center">Kaufleute</td>
-    <td style="padding:4px;vertical-align:top;align:center">Schulungen</td>
-    <td style="padding:4px;vertical-align:top;align:center">Sozialwesen</td>
-    <td style="padding:4px;vertical-align:top;align:center">Unternehmen</td>
-  </tr>
-  <tr>
-    <td style="padding:4px;vertical-align:top"><b>N</b></td>
-    <td style="padding:4px;vertical-align:top;align:center">157</td>
-    <td style="padding:4px;vertical-align:top;align:center">228</td>
-    <td style="padding:4px;vertical-align:top;align:center">418</td>
-    <td style="padding:4px;vertical-align:top;align:center">604</td>
-    <td style="padding:4px;vertical-align:top;align:center">22</td>
-    <td style="padding:4px;vertical-align:top;align:center">56</td>
-  </tr>
-</table>
-
 ## Access
 
 To gain access to the data and materials, sign the declaration you received via mail, sign it, and send a digital copy <a href="mailto:dirk.wulff@unibas.ch?subject=declaration"><b>to me</b></a>.
