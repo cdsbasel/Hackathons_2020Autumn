@@ -7,7 +7,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = FALSE, 
-  eval = FALSE,
+  eval = TRUE,
   message = FALSE,
   warning = FALSE)
 ```
@@ -27,11 +27,18 @@ In this assignment you will...
 
 ### A - Gather books
 
-1) Go to [Project Gutenberg](https://www.gutenberg.org/) and download five books that you find interesting (you may reuse the book you've been using). Make sure that the books do not drastically differ in length. The smallest book should be more than 50% of the size of the largest book. 
+1) Go to [Project Gutenberg](https://www.gutenberg.org/) and download five books that you find interesting (you may reuse the book you've been using). Make sure that the books do not drastically differ in length. The smallest book should be more than 50% of the size (total # words) of the largest book. 
 
 ### B - Process books
 
-1. Define a function called `main_text_fun` that takes as input the filename (incl. path) and returns the `main_text` object from previous assignments containing the lower-case book text. 
+1. Load packages `tidyverse` and `tidytext`. 
+
+```{r}
+library(tidyverse)
+library(tidytext)
+```
+
+2. Define a function called `main_text_fun` that takes as input the filename (incl. path) and returns the `main_text` object from previous assignments containing the lower-case book text. 
 
 ```{r}
 
@@ -59,7 +66,7 @@ main_text_fun = function(file){
   
 ```
 
-2. Create a vector containing filenames (incl. path) of the books. If the books are all in one folder you can use `list.files()` with `full.names = TRUE`.    
+3. Create a vector containing filenames (incl. path) of the books. If the books are all in one folder you can use `list.files()` with `full.names = TRUE`.    
 
 ```{r}
 # file
@@ -67,16 +74,14 @@ files = list.files('books', full.names = T)
 
 ```
 
-3. Use the vector and the `main_text_fun()` within a `sapply()` to extract the texts for all books and store them in an object called `texts`.   
+4. Use the vector and the `main_text_fun()` within a `sapply()` to extract the texts for all books and store them in an object called `texts`.   
 
 ```{r}
-
 # process texts
 texts <- sapply(files, main_text_fun)
-
 ```
 
-4. Create a `tibble` using `tibble` that has two columns: a column called `book` containing a self-defined character vector of book names and a column called `text` containing the `texts` vector of books. Call the tibble `text_tbl`. When you subsequently print it it should like the output shown below. 
+5. Create a `tibble` using `tibble` that has two columns: a column called `book` containing a self-defined character vector of book names and a column called `text` containing the `texts` vector of books. Call the tibble `text_tbl`. When you subsequently print it it should like the output shown below. 
 
 ```{r, eval = TRUE}
 
@@ -91,7 +96,7 @@ text_tbl
 
 ### C - Tokenization
 
-1) Apply `unnest_tokens()` to `token_tbl` in order to tokenize the text. Store the result back in `token_tbl`. 
+1) Apply `unnest_tokens()` to `token_tbl` in order to tokenize the elements in the  `text` column. See `?unnest_tokens`. Store the result back in `token_tbl`. 
 
 ```{r}
 # tokenize
@@ -99,64 +104,60 @@ token_tbl = text_tbl %>%
   unnest_tokens(word, text)
 ```
 
-2) Now use `tidyverse`'s `group_by()` and `mutate()` idiom to add columns `pos = 1:n()` and `rel_pos = (pos-1) / max(pos-1)` coding the absolute and relative position of a word within the respective book. To do this you must group according to the variable indicating the book. 
+2) Now use `tidyverse`'s `group_by()` and `mutate()` idiom to add columns `pos = 1:n()` and `rel_pos = (pos-1)/max(pos-1)` coding the absolute and relative position of a word within the respective book. To do this, you must group according to the variable indicating the book. 
 
 ```{r}
 # add pos variable
 token_tbl <- token_tbl %>% 
   group_by(book) %>%
   mutate(pos = 1:n(),
-         rel_pos = pos / max(pos)) %>%
+         rel_pos = (pos-1)/max(pos-1)) %>%
   ungroup()
 ```
 
-## D - Sentiment analysis
+### D - Add sentiments
 
-1) Extract the *afinn* sentiment dictionary using the `get_sentiments` function and store it in an object called `afinn`.
+1) Extract the *afinn* sentiment dictionary using the `get_sentiments()` function and store it in an object called `afinn`.
 
-2) Use `inner_join` to combine your `token_tbl` with `afinn`.
+2) Use `inner_join` to combine your `token_tbl` with `afinn`. You are reading for analysis. 
 
-```{r, eval = TRUE}
+```{r}
 # add sentiments
 token_tbl <- token_tbl %>% 
   inner_join(get_sentiments("afinn"))
 ```
 
-## Smoothing
+### E - Analyzing sentiments
 
-1. Use the `group_by` - `mutate` idiom along with the smooth function below to calculate more interpretable, smoothed sentiment scores for each of the books. 
+1. Use the `group_by()` - `mutate()` idiom along with the `smooth()` function shown below in order to calculate smoothed sentiment values that a bit easier to interpret. 
 
-```{r, echo = TRUE, eval = TRUE}
-
+```{r, echo = TRUE}
 # smoothing function
-smooth = function(pos, score){ 
+smooth = function(pos, value){ 
   sm = sapply(pos, function(x) {
     weights = dnorm(pos, x, max(pos) / 10)
-    sum(score * (weights / sum(weights)))
+    sum(value * (weights / sum(weights)))
     })
   }
 
 ```
 
-```{r, eval = TRUE}
-
+```{r}
 # smooth scores
 token_tbl <- token_tbl %>% 
   group_by(book) %>%
-  mutate(smooth_score = smooth(pos, score))
-
-
+  mutate(smooth_value = smooth(pos, value))
 ```
 
-2. Use the code below to create a plot like this:
+2. Use the code below to create a plot of your sentiment arcs. If the lines are too squiggly, play around with the constant (currently `10`) in the `dnorm()` function within `smooth()`.  
 
 ```{r, eval = TRUE, echo = TRUE}
-
+# plot sentiment arcs
 ggplot(token_tbl, 
-       aes(rel_pos, smooth_score,color=book)) +
+       aes(rel_pos, smooth_value,color=book)) +
   geom_line(lwd=2) + 
-  labs(x = "Position", y = 'Sentiment')
-
+  labs(x = "Position", y = 'Sentiment') + 
+  theme_minimal()
 
 ```
 
