@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Survey validity
+title: Survey validity hackathon
 ---
 
 
