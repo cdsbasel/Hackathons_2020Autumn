@@ -47,6 +47,9 @@ To gain access to the data and materials, sign the declaration you received via 
 
 Once you have handed-in the signed declaration you will receive a password that you can use to download this <a href="https://www.dropbox.com/sh/nazry94v600x8jb/AADCKjP9xpQu7k0KcrJ66-Jca?dl=0"><b>file</b></a>, containing the data and materials.
 
+## Format
+
+In the first hour, we will discuss potential answers to the questions outlined under **Problems/Questions**. In the second and third hour, we will gather in small teams to implement our discussed analyzes using R either by following along a prepared assignment or by carrying out our own analysis plan. In the fourth hour, we will present our findings and discuss our verdict on the survey's quality.    
 
 ## Background Readings
 The following references may be helpful to you to consider concept of validity and associated standards in psychological science.
