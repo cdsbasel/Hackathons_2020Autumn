@@ -22,7 +22,7 @@ The inventory consists of 10 items with three different five-option, graded resp
 
 ## Access
 
-To gain access to the data and materials, sign the declaration you received via mail, sign it, and send a digital copy <a href="mailto:dirk.wulff@unibas.ch?subject=declaration"><b>to me</b></a>.
+To gain access to the data and materials, sign the declaration you received via mail and send a digital copy <a href="mailto:dirk.wulff@unibas.ch?subject=declaration"><b>to me</b></a>.
 
 Once you have handed-in the signed declaration you will receive a password that you can use to download this <a href="https://www.dropbox.com/sh/nazry94v600x8jb/AADCKjP9xpQu7k0KcrJ66-Jca?dl=0"><b>file</b></a>, containing the data and materials.
 
