@@ -5,7 +5,7 @@ title: Data visualization training
 
 ## Time
 
-October 30th, 2pm–6pm
+November 30th, 4pm–6pm
 
 ## Learning Goals
 2-hour training and exercises teaching you how to create stunning data visualizations with ggplot2 in R.
