@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data visualization
+title: Data visualization training
 ---
 
 ## Time
