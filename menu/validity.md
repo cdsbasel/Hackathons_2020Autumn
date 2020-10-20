@@ -34,4 +34,4 @@ In the first hour, we will discuss potential answers to the questions outlined u
 The following references may be helpful to you to consider concept of validity and associated standards in psychological science.
 
 <a href="http://www.sfu.ca/~palys/Cronbach&Meehl-1955-ConstructValidityInPsychologicalTests.pdf">Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological bulletin, 52(4), 281-302.</a>
-American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (1982). Standards for educational and psychological testing. Washington, DC: American Educational Research Association. (Chapter 1. Validity)
+American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (1982). Standards for educational and psychological testing. Washington, DC: American Educational Research Association. (Chapter 1 & 2)
