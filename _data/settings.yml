@@ -8,11 +8,13 @@ google-ID: 'UA-112060364-1'
 menu:
 - {name: 'Survey validity',   path: 'menu', url: 'validity.html'}
 - {name: 'Data visualization',   path: 'menu', url: 'visualization.html'}
+- {name: 'Training',   path: 'menu', url: 'training.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github', link: 'https://github.com/dwulff'}
 # - {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'github', link: 'https://github.com/dwulff'}
+
 # - {icon: 'linkedin', link: 'http://www.linkedin.com/in/lenpaul/'}
 # - {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
 # - {icon: 'rss-square', link: '/feed.xml'}
