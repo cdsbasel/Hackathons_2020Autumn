@@ -4,9 +4,7 @@ title: Survey validity hackathon
 ---
 
 
-<a href="https://unibas.zoom.us/j/99259934260">
-<font style="font-size:1.5em;font-family: "Quattrocento Sans", sans-serif;color: #333;">ZOOM &#128279;</font>
-</a>
+<a href="https://unibas.zoom.us/j/99259934260"><img src="https://dwulff.github.io/NLP_2020Autumn/assets/img/zoom.png"></a>
 
 ## Time & Schedule
 
