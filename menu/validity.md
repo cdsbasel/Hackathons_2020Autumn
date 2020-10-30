@@ -4,7 +4,7 @@ title: Survey validity hackathon
 ---
 
 
-<a href="https://unibas.zoom.us/j/99259934260"><h2>ZOOM</h2></a>
+<a href="https://unibas.zoom.us/j/99259934260"><h2>ZOOM &#128279;</h2></a>
 
 ## Time & Schedule
 
