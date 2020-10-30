@@ -4,9 +4,7 @@ title: Survey validity hackathon
 ---
 
 
-## ZOOM
-
-<a href="https://unibas.zoom.us/j/99259934260"><img src="https://dwulff.github.io/Rationality_2020Autumn/assets/img/zoom.png"></a>
+<a href="https://unibas.zoom.us/j/99259934260"><h2>ZOOM</h2></a>
 
 ## Time & Schedule
 
