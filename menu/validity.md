@@ -13,7 +13,7 @@ October 30th
 2:00pm - Welcome and form teams<br>
 2:15pm - Team discussion<br>
 2:45pm - Plenary discussion<br>
-3:30pm - analysis<br>
+3:30pm - Team analysis<br>
 5:00pm - Plenary discussion<br>
 6:00pm - Wrap up
 
