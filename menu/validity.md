@@ -4,9 +4,21 @@ title: Survey validity hackathon
 ---
 
 
-## Time
+## ZOOM
 
-October 30th, 2pm–6pm
+<a href="https://unibas.zoom.us/j/99259934260"><img src="https://dwulff.github.io/Rationality_2020Autumn/assets/img/zoom.png"></a>
+
+## Time & Schedule
+
+October 30th
+
+2:00pm - Welcome and form teams
+2:15pm - Team discussion
+2:45pm - Plenary discussion
+3:30pm - analysis
+5:00pm - Plenary discussion
+6:00pm - Wrap up
+
 
 ## Learning Goals
 The half-day hackathon uses the principles of problem-based learning and service learning to train your skills in data analysis and communication of evidence - key competencies in the digital era.
