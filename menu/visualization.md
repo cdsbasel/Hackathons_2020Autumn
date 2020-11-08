@@ -4,6 +4,8 @@ title: Flying Less Visualization Hackathon
 
 ---
 
+<a href="https://unibas.zoom.us/j/92667698354?pwd=Q095Rmk5UVJBc0V1Rk96SUVVWVMwQT09"><img src="https://dwulff.github.io/NLP_2020Autumn/assets/img/zoom.png"></a>
+
 ## Background
 The University of Basel is committed to reducing academic business travel by plane by at least 30% in the next few years. The Sustainability office is responsible for coordinating and supporting faculties and other institutional bodies at the University of Basel to achieve this reduction. The hackathon is the result of a partnership between the Sustainability Office of the University of Basel and the Center for Cognitive and Decision Sciences (CDS) with the goal of generating insights from existing data about academic business travel to help make informed decisions about flying and/or raise awareness about academic business travel. For this purpose, the Sustainability Office has made available a set of anonymized data concerning the flights taken by staff and students of the University of Basel in the past years.  
 
@@ -28,6 +30,9 @@ The hackathon will be dedicated to using R to prepare the 2 data visualizations 
 Your assignment is to function as a data analyst to identify a course of action, including developing a specific analysis plan and communication strategy using the data available. You are challenged to answer a number of questions, including: What type of questions can we answer about academic business travel at the University of Basel using the data set supplied by the Sustainability office? What data visualization techniques can be used to generate insights and for which audiences? How should such analyses be conducted, interpreted, and communicated?
 
 ## Data
+
+<h4><a href="https://www.dropbox.com/sh/zs50cji9k5hk6a4/AADWV7-WvwV_p7NJm9xb7Xqoa?dl=0">Download Data & Materials</a></h4>
+
 The dataset consists of information concerning about 20.000 flights paid by the University of Basel between 2017 and 2019. Each flight is described by a number of variables, including date information, departure and arrival airports, price, and an estimate of the CO2 emissions associated with each flight, among others. See table of variables below.
 
 <style>
@@ -127,4 +132,4 @@ td {
 
 <a href="http://doi.org/10.3390/su11010080">Ciers, J., Mandic, A., Toth, L. D., & Veld, G. O. T. (2018). Carbon footprint of academic air travel: A case study in Switzerland. Sustainability, 11(1), 80.</a
 
-Knaflic, C. N. (2015). Storytelling with data: A data visualization guide for business professionals.Hoboken, New Jersey: John Wiley & Sons, Inc.
+Knaflic, C. N. (2015). Storytelling with data: A data visualization guide for business professionals.Hoboken, New Jersey: John Wiley & Sons, Inc. (For a summary see Chapter 8)
