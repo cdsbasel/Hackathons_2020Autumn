@@ -41,6 +41,8 @@ td {
 }
 </style>
 
+#### unibas_flights_2017-2019.csv
+
 <table cellspacing="0" cellpadding="0">
 <tr>
   <td><b>Label</b></td>
@@ -127,6 +129,48 @@ td {
   <td>latitude of destination airport</td>
 </tr>
 </table>
+
+#### train_connections.csv
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+  <td><b>Label</b></td>
+  <td><b>Description</b></td>
+</tr>
+<tr>
+  <td>departue</td>
+  <td>municipality of departure location</td>
+</tr>
+<tr>
+  <td>destination</td>
+  <td>municipality of destination location</td>
+</tr>
+<tr>
+  <td>duration</td>
+  <td>duration of train ride in hours</td>
+</tr>
+<tr>
+  <td>frequency</td>
+  <td>frequency of connection per day</td>
+</tr>
+<tr>
+  <td>type</td>
+  <td>type or train</td>
+</tr>
+<tr>
+  <td>dep_duration</td>
+  <td>duration to reach departure location from Basel</td>
+</tr>
+<tr>
+  <td>dep_co2</td>
+  <td>CO2 [t] expenditure to reach departure location from Basel</td>
+</tr>
+<tr>
+  <td>co2</td>
+  <td>CO2 expenditure of the train connection (excl. travel to departure location)</td>
+</tr>
+</table>
+
 
 ## Background Readings
 
