@@ -29,6 +29,24 @@ The hackathon will be dedicated to using R to prepare the 2 data visualizations 
 ## Assignment
 Your assignment is to function as a data analyst to identify a course of action, including developing a specific analysis plan and communication strategy using the data available. You are challenged to answer a number of questions, including: What type of questions can we answer about academic business travel at the University of Basel using the data set supplied by the Sustainability office? What data visualization techniques can be used to generate insights and for which audiences? How should such analyses be conducted, interpreted, and communicated?
 
+#### Plot 1: CO2 expenditure by trip
+
+Create a bean plot (or a comparable plot type) that illustrates the central tendencies and distribution of total CO2 expenditure across various <b>trip</b> categories. Focus oIt min the following categories: “Inter-swiss”, “inter-neighbour” (flights to DE, FR, IT, etc.), “inter-european”, and “inter-continental”. Prior to plotting you must determine for each trip its total CO2 expenditure and category. Bonus: If possible include information on category frequency in the plot, e.g., using the width of the bean, using overlayed jittered points, or using text.
+
+#### Plot 2: CO2 savings from using trains
+
+Create a barplot (or a comparable plot type) that shows the CO2 saving from using the train for various <b>leg</b> categories. Prior to plotting you must join the flights data with the train connection data set (“train_connections.csv”). Focus on the following categories: “trains departing from Basel”, “trains departing from Basel, Zürich, and Bern”, and “trains departing from anywhere Switzerland”. Calculate for each category the CO2 savings according to the formula below. Account for both incoming and outgoing flight legs. Bonus: If possible stratify each category by duration, i.e., including only trains that take less than 4h, less than 8h, more than 8h.
+
+<u>CO2 saving</u>
+
+1 - (CO2_total - CO2_flights_category + CO2_train_category) / CO2_total
+
+CO2_total = total CO2 for all legs in the data
+CO2_flights_category = CO2 for flights in given category
+CO2_train_category = CO2 for trains in given category
+
+
+
 ## Data
 
 <h4><a href="https://www.dropbox.com/sh/zs50cji9k5hk6a4/AADWV7-WvwV_p7NJm9xb7Xqoa?dl=0">Download Data & Materials</a></h4>
