@@ -167,7 +167,7 @@ td {
 </tr>
 <tr>
   <td>co2</td>
-  <td>CO2 expenditure of the train connection (excl. travel to departure location)</td>
+  <td>CO2 [t] expenditure of the train connection (excl. travel to departure location)</td>
 </tr>
 <tr>
   <td>type</td>
