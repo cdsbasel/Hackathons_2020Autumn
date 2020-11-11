@@ -32,7 +32,7 @@ Your assignment is to function as a data analyst to identify a course of action,
 
 ### <b>Plot 1: CO2 expenditure by trip</b>
 
-Create a bean plot (or a comparable plot type) that illustrates the central tendencies and distribution of total CO2 expenditure across various <b>trip</b> categories. Focus on the following categories: “Inter-swiss”, “inter-neighbour” (flights to DE, FR, IT, etc.), “inter-european”, and “inter-continental”. Prior to plotting you must determine for each trip its total CO2 expenditure and category. Bonus: If possible include information on category frequency in the plot, e.g., using the width of the bean, using overlayed jittered points, or using text.
+Create a bean plot (or a comparable plot type) that illustrates the central tendencies and distribution of total CO2 expenditure across various <b>trip</b> categories. Focus on the following categories: “inter-swiss”, “inter-neighbour” (flights to DE, FR, IT, etc.), “inter-european”, and “inter-continental”. Prior to plotting you must determine for each trip its total CO2 expenditure and category. Bonus: If possible include information on category frequency in the plot, e.g., using the width of the bean, using overlayed jittered points, or using text.
 
 ### <b>Plot 2: CO2 savings from using trains</b>
 
