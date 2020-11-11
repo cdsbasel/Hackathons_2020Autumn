@@ -154,8 +154,8 @@ td {
   <td>frequency of connection per day</td>
 </tr>
 <tr>
-  <td>type</td>
-  <td>type or train</td>
+  <td>carrier</td>
+  <td>type or train carrier</td>
 </tr>
 <tr>
   <td>dep_duration</td>
@@ -168,6 +168,10 @@ td {
 <tr>
   <td>co2</td>
   <td>CO2 expenditure of the train connection (excl. travel to departure location)</td>
+</tr>
+<tr>
+  <td>type</td>
+  <td>direct or indirect train</td>
 </tr>
 </table>
 
