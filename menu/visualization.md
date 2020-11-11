@@ -37,7 +37,7 @@ Create a bean plot (or a comparable plot type) that illustrates the central tend
 
 Create a barplot (or a comparable plot type) that shows the CO2 saving from using the train for various <b>leg</b> categories. Prior to plotting you must join the flights data with the train connection data set (“train_connections.csv”). Focus on the following categories: “trains departing from Basel”, “trains departing from Basel, Zürich, and Bern”, and “trains departing from anywhere Switzerland”. Calculate for each category the CO2 savings according to the formula below. Account for both incoming and outgoing flight legs. Bonus: If possible stratify each category by duration, i.e., including only trains that take less than 4h, less than 8h, more than 8h.
 
-<u>CO2 saving</u>
+CO2 saving:
 
 1 - (CO2_total - CO2_flights_category + CO2_train_category) / CO2_total
 
