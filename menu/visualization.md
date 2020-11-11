@@ -18,12 +18,13 @@ The goal of the planning session is to help you familiarize yourself with the da
 
 #### Hackathon: November 11, 14:00-18:00
 The hackathon will be dedicated to using R to prepare the 2 data visualizations identified in the planning session. Each team’s results will be shared in a short, timed presentation that showcases the 2 data visualizations and a conclusion (3 slides, 1 minute per slide). The hackathon schedule:
-14:00 - Welcome and forming team (4 teams of 2-4 people)
-14:15 - Team work
-15:15 - Plenary: Troubleshooting and discussion
-15:30 - BREAK
-16:00 - Team work
-17:00 - Presentations and Discussion
+
+14:00 - Welcome and forming team (4 teams of 2-4 people)<br>
+14:15 - Team work<br>
+15:15 - Plenary: Troubleshooting and discussion<br>
+15:30 - BREAK<br>
+16:00 - Team work<br>
+17:00 - Presentations and Discussion<br>
 17:50 - Wrap-up
 
 ## Assignment
