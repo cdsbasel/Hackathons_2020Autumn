@@ -47,10 +47,6 @@ td {
   <td><b>Description</b></td>
 </tr>
 <tr>
-  <td>year</td>
-  <td>year</td>
-</tr>
-<tr>
   <td>trip</td>
   <td>unique identifier for each trip or event (e.g., workshop)</td>
 </tr>
@@ -77,6 +73,10 @@ td {
 <tr>
   <td>date</td>
   <td>date of flight</td>
+</tr>
+<tr>
+  <td>year</td>
+  <td>year</td>
 </tr>
 <tr>
   <td>co2</td>
